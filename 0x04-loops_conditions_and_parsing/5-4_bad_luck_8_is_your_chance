@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+#add bad luck and good luck
+
+
 n=0
 while [ $n -lt 10 ]
 do
