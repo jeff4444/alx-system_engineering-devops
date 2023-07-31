@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#display timefrom 00:00  till 12:59
+
+
+hour=0
+while [ $hour -le 12 ]
+do
+	echo "Hour: $hour"
+	sec=1
+	while [ $sec -lt 60 ]
+	do
+		echo "$sec"
+		sec=$(( sec+1 ))
+	done
+	hour=$(( hour+1 ))
+done
