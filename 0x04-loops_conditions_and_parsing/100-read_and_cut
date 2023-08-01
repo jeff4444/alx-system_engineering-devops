@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#read and cut
+
+
+while IFS=":" read -r A _ C _ _ F _
+do
+	echo "$A:$C:$F"
+done < /etc/passwd
